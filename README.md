@@ -1,6 +1,6 @@
 # Text-Image-GAN
 
-A text-conditioned GAN that generates realistic 64x64 human face images from natural language prompts.
+A PyTorch-based text-conditioned GAN that generates 64x64 face images from natural language prompts.
 
 ## ✨ Highlights
 - Uses BERT (`dslim/bert-base-NER`) for embedding text prompts.
@@ -17,6 +17,14 @@ A text-conditioned GAN that generates realistic 64x64 human face images from nat
 - Base64-encoded 64x64 human face images.
 - Prompts extracted and embedded via `dslim/bert-base-NER`.
 
+##  Libraries Used
+torch==1.13.1
+transformers
+pandas
+numpy
+matplotlib
+scikit-learn
+
 ## 🛠️ How to Run
 ```bash
 # Install dependencies
@@ -27,3 +35,11 @@ python train.py
 
 # Generate images
 python generate.py
+
+## ✨ Highlights
+torch==1.13.1
+transformers
+pandas
+numpy
+matplotlib
+scikit-learn
