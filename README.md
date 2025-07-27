@@ -18,12 +18,12 @@ A PyTorch-based text-conditioned GAN that generates 64x64 face images from natur
 - Prompts extracted and embedded via `dslim/bert-base-NER`.
 
 ##  Libraries Used
-torch==1.13.1
-transformers
-pandas
-numpy
-matplotlib
-scikit-learn
+-torch==1.13.1
+-transformers
+-pandas
+-numpy
+-matplotlib
+-scikit-learn
 
 ## 🛠️ How to Run
 ```bash
@@ -36,10 +36,4 @@ python train.py
 # Generate images
 python generate.py
 
-## ✨ Highlights
-torch==1.13.1
-transformers
-pandas
-numpy
-matplotlib
-scikit-learn
+
